@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d718d4b4929b4cee91fe6a388466f9cd" Name="Diagram1">
+        <EntityTypeShape EntityType="PractikaModel.Country" Width="1.5" PointX="6" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PractikaModel.Gender" Width="1.5" PointX="3.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PractikaModel.Order" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PractikaModel.Order_Product" Width="1.5" PointX="8.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PractikaModel.Product" Width="1.5" PointX="6" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PractikaModel.Product_Country" Width="1.5" PointX="8.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PractikaModel.RoleId" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PractikaModel.Stage" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PractikaModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PractikaModel.Unit" Width="1.5" PointX="3.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PractikaModel.User" Width="1.5" PointX="6" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="PractikaModel.FK_ProductCountry_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="PractikaModel.FK_User_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="PractikaModel.FK_Order_RoleId" ManuallyRouted="false" />
+        <AssociationConnector Association="PractikaModel.FK_Order_RoleId1" ManuallyRouted="false" />
+        <AssociationConnector Association="PractikaModel.FK_Order_Stage" ManuallyRouted="false" />
+        <AssociationConnector Association="PractikaModel.FK_OrderProduct_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="PractikaModel.FK_OrderProduct_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="PractikaModel.FK_Product_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="PractikaModel.FK_ProductCountry_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="PractikaModel.FK_User_RoleId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
